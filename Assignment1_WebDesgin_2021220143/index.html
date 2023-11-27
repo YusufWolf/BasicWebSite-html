@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Web Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1 class="name">Yusuf Semih Kurt</h1>
+        <h2 class="posit">Student at FSMVU</h2>
+        <div class="image-container">
+            <div class="image-wrapper" onmouseover="showTooltip(this, event)" onmouseout="hideTooltip(this)">
+                <img src="images/Eng.png" alt="UK Flag" width="60" height="50">
+                <div class="tooltip">English</div>
+            </div>
+            <div class="separator"></div>
+
+            <div class="image-wrapper" onmouseover="showTooltip(this, event)" onmouseout="hideTooltip(this)">
+                <img src="images/Tur.png" alt="Turkish Flag" width="60" height="50">
+                <div class="tooltip">Turkish</div>
+            </div>
+        </div>
+        <div class="right-img">
+            <img src="images/header_rightside.jpg" alt="Right Image">
+        </div>
+    </header>
+    <div class="bottom-image">
+        <img src="images/stajrsm.jpeg" alt="">
+    </div>
+    <div class="header-nav-main-wrapper">
+        <nav class="nav-placeholder"></nav>
+        <nav class="nav">
+            <div class="nav-container">
+                <a href="https://facebook.com" target="_blank"><img src="images/facebook.png" alt="facebook  image"
+                        height="20px" width="20px" href> <span class="txtnav">Facebook</span></a>
+                <br>
+                <a href="https://www.instagram.com" target="_blank"><img src="images/insta.png" alt="instagram  image"
+                        height="20px" width="20px"> <span class="txtnav">Instagram</span></a>
+                <br>
+                <a href="https://www.twitter.com" target="_blank"><img src="images/twiter.png" alt="twitter image"
+                        height="20px" width="20px"> <span class="txtnav">Twitter</span></a>
+                <br>
+                <a href="https://www.linkedin.com" target="_blank"><img src="images/in.png" alt="Linedin image"
+                        height="20px" width="20px"> <span class="txtnav">Linkedin</span></a>
+                <br>
+                <a href="https://www.google.com" target="_blank"><img src="images/g.png" alt="google image"
+                        height="20px" width="20px"> <span class="txtnav">Google</span></a>
+                <br>
+                <a href="https://www.youtube.com" target="_blank"><img src="images/youtube.png" alt="youtube image"
+                        height="20px" width="20px"> <span class="txtnav">Youtube</span></a>
+            </div>
+        </nav>
+
+
+        <main class="main">
+            <h2 class="welcome">Welcome To My Webpage</h2>
+            <div class="parag" id="aboutme">
+                <h2 class="title">ABOUT ME</h2>
+                <p class="fontmain">I am a computer engineer which is a broad word under which there are many job roles.
+                    As a computer
+                    engineer
+                    I would be responsible for developing, designing, testing and implementing various computer based
+                    software
+                    and hardware, which includes certain components found inside the computer equipment.
+                    Furthermore, I can care for the devices within the computer and the software which power these
+                    machines.
+                    Finally, I can design the network and assure its security by integrating various software programs
+                    and
+                    hardware. Computer engineers are in heavy demand all through the business sectors in the world.</p>
+            </div>
+
+            <div class="parag" id="education">
+                <h2 class="title">EDUCATION</h2>
+                <p class="fontmain">
+                <ol style="font-family: Arial, sans-serif;
+                font-size: 18px;">
+                    <li>Toki Pazar Middle School</li>
+                    <li>Cemil Meric Middle School</li>
+                    <li>Kadikoy High School</li>
+                    <li>FSMVU Computer Engineering(Student)</li>
+                    <li>Computer Engineering(Master)</li>
+                </ol>
+                </p>
+            </div>
+            <div class="parag" id="experience">
+                <h2 class="title">EXPERIENCE</h2>
+                <p class="fontmain">
+                <ul style="font-family: Arial, sans-serif;
+                font-size: 18px;">
+                    <li>Kion Information Technologies</li>
+                    <li>Ziraat Technology</li>
+                    <li>Inter-Tech</li>
+                    <li>Turkcell</li>
+                </ul>
+                </p>
+            </div>
+            <div class="parag" id="skills">
+                <h2 class="title">SKILLS</h2> 
+                <div class="imgskills">
+                    <img id="skillsimg" src="images/skills1.jpg" alt="skill1" width="100px" height="100px">
+                    <img id="skillsimg" src="images/skills2.jpg" alt="skill2" width="100x" height="100px">
+                    <img id="skillsimg" src="images/skills3.jpg" alt="skill3" width="100x" height="100px">
+                    <img id="skillsimg" src="images/skills4.jpg" alt="skill4" width="100x" height="100px">
+                    <img id="skillsimg" src="images/skills5.png" alt="skill5" width="100x" height="100px">
+                    <img id="skillsimg" src="images/skills6.png" alt="skill6" width="100x" height="100px">
+                    <img id="skillsimg" src="images/skills7.png" alt="skill7" width="100x" height="100px">   
+                </div>               
+                                           
+            </div>
+            <div class="parag" id="hobbies">
+                <h2 class="title">HOBBIES AND INTEREST</h2>
+                <p class="fontmain">
+                <ul style="font-family: Arial, sans-serif;
+                font-size: 18px;">
+                    <li>Playing Football</li>
+                    <li>Swimming</li>
+                    <li>Reading Historical Books</li>
+                    <li>Travelling</li>
+                    <li>Programing</li>
+                </ul>
+                </p>
+            </div>
+
+        </main>
+
+        <section class="right-column">
+            <div class="grouped">
+                <div class="quick-info-box">
+                    <h2 class="quickh2">QUICK ID</h2>
+                    <hr class="hrright">
+                    <div class="textsizequick">
+                        <p><strong>Phone:</strong> 0213-142-4444</p>
+                        <p><strong>Email:</strong> yaaw2323@gmail.com</p>
+                        <p><strong>Website:</strong> www.fsm.edu.tr </p>
+                        <p><strong>Address:</strong> Sütlüce Mah. Karaağaç Cad. No:12/A 34445 Beyoğlu / İSTANBUL</p>
+                    </div>
+                </div>
+                <hr>
+                <div id="contactBox" class="contact-box">
+                    <h2 class="contactmeh2">CONTACT ME</h2>
+                    <hr class="contactmehr">
+                    <div class="row">
+                        <div class="column">
+                            <label class="labelcontact" for="firstName">First Name *</label>
+                            <input class="inputcontactfirstname" type="text" id="firstName" name="firstName" required>
+                
+                            <label class="labelcontact" for="email">Email *</label>
+                            <input class="inputcontactemail" type="email" id="email" name="email" required>
+                
+                            <label class="labelcontact" for="date">Date</label>
+                            <input class="inputcontactdate" type="date" id="date" name="date">
+                        </div>
+                        <div class="column">
+                            <label class="labelcontact" for="lastName">Last Name *</label>
+                            <input class="inputcontactlastname" type="text" id="lastName" name="lastName" required>
+                
+                            <label class="labelcontact" for="tel">Tel</label>
+                            <input class="inputcontacttel" type="tel" id="tel" name="tel">
+                
+                            <label class="labelcontact" for="time">Time</label>
+                            <input class="inputcontacttime" type="time" id="time" name="time">
+                        </div>
+                    </div>
+                
+                    <label class="labelcontact" for="subject">Subject *</label>
+                    <input class="inputcontactsubject" type="text" id="subject" name="subject" required>
+                
+                    <label class="labelcontact" for="message">Message *</label>
+                    <input class="inputcontactmessage" type="text" id="message" name="message" required>
+                
+                    <div class="button-container"><button id="submitBtn">Submit</button></div>
+                </div>
+                
+                <div id="successBox" class="success-box" style="display:none;">
+                    <p style="text-align: center;"><strong>Thank you...</strong></p>
+                    <p style="text-align: center;"><strong>Your message has been sent.</strong></p>
+                    <p id="submissionCount"></p>
+                    <p id="currentDateTime"></p>
+                    <ul id="previousSubmissions"></ul>
+                    <p><strong>To send another message, </strong> <a href="#" id="sendAnother">click here.</a></p>
+                </div>
+            </div>
+
+
+        </section>
+    </div>
+    <footer>
+        Last Update: 15/11/2023 - 18:00 GMT
+        <br>
+        Copyright @ 2023
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
